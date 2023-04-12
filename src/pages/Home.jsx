@@ -286,7 +286,7 @@ export function Home() {
                                 }}
                                 className="swiper-container"
                             >
-                                <SwiperSlide className="3xl:w-10/12 3xl:h-[700px] lg:w-10/12 lg:h-full">
+                                <SwiperSlide className="lg:w-10/12 lg:h-full">
                                     <CardProject
                                         frontCover={MegaMovies}
                                         title="MEGA MOVIES"
@@ -295,7 +295,7 @@ export function Home() {
                                         deploy="https://megamovies-beryl.vercel.app/"
                                     />
                                 </SwiperSlide>
-                                <SwiperSlide className="3xl:w-10/12 3xl:h-[700px] lg:w-10/12 lg:h-full">
+                                <SwiperSlide className="lg:w-10/12 lg:h-full">
                                     <CardProject
                                         frontCover={wiseUp}
                                         title="PÁGINA DE LOGIN"
@@ -304,7 +304,7 @@ export function Home() {
                                         deploy="http://wise-up-online-clone.vercel.app/"
                                     />
                                 </SwiperSlide>
-                                <SwiperSlide className="3xl:w-10/12 3xl:h-[700px] lg:w-10/12 lg:h-full">
+                                <SwiperSlide className="lg:w-10/12 lg:h-full">
                                     <CardProject
                                         frontCover={ListaDePresença}
                                         title="LISTA DE PRESENÇA"
@@ -313,7 +313,7 @@ export function Home() {
                                         deploy="http://lista-de-presen-a-coral.vercel.app/"
                                     />
                                 </SwiperSlide>
-                                <SwiperSlide className="3xl:w-10/12 3xl:h-[700px] lg:w-10/12 lg:h-full">
+                                <SwiperSlide className="lg:w-10/12 lg:h-full">
                                     <CardProject
                                         frontCover={CiclosDeMercado}
                                         title="LANDING PAGE"
